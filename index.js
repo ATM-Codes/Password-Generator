@@ -18,6 +18,7 @@ function generatePassword() {
         
         
         
+        
         if((p1.textContent==="0" && p2.textContent==="0") && i===0) 
         {
             p1.textContent=characters[i1]

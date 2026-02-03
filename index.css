@@ -4,19 +4,19 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #1F2937;
+    background-color: #FFFBEB;
 }
 
 h1{
     font-family: "Karla", sans-serif;
-    color: #ffffff;
+    color: #111827;
     padding-bottom: 0;
     margin-bottom: 0;
 }
 
 p{
     font-family: "Karla", sans-serif;
-    color:#D1D5DB;
+    color:#374151;
 }
 
 #main-text{
@@ -29,43 +29,47 @@ p{
 }
 
 #container{
-    width: fit-content;
+    width: 50%;
+    padding: 0%;
+    
 }
 
 .p-fields{
-    display: flex;
-    justify-content: center;
+    display:flex;
+    justify-content:space-between;
+    padding: 0;
+    margin: 0;
 }
 
 button{
     color:#ffffff;
-    background-color: #10B981;
+    background-color: #E11D48;
     font-family: "Karla", sans-serif;
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
     align-items: start;
-    margin: 20px 120px 20px 0px;
+    margin: 20px 0px 20px 0px;
     width: 50%;
 
 }
 .password{
     background-color: #273549;
     font-family: "Karla", sans-serif;
-    padding: 1px 2px;
+    padding: 0px;
     border-radius: 5px;
     border: none;
     align-items: start;
-    margin: 20px 20px;
-    width: 150px;
+    width: 14rem;
 }
 
 .pbtn_text{
-   color:#55F991;
+   color:#F43F5E;
+   font-weight: 400;
 }
 
 hr{
     display: flex;
     width: 25%;
-    background-color: #2F3E53;
+    background-color:#9CA3AF;
 }
